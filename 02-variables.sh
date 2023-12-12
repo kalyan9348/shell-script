@@ -5,6 +5,8 @@ echo "$PERSON2: Hi $PERSON1 I am good what about you?"
 echo "$PERSON1: Thanks for the asking, I am good."
 echo "$PERSON2: No Problem $PERSON1"
 
+#Syntax to run this : sh 02-variables.sh
+
 PERSON1=ROHIT
 PERSON2=Raheem
 
