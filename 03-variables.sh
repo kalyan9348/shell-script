@@ -17,7 +17,7 @@ read -s PASSWORD
 #Syntax to run this : sh 03-variables.sh
 
 DATE=(date)
-echo "SCript starting executing: $DATE wrong"
+echo "SCript starting executing: $DATE wrong  "
 
 DATE=$(date)
 echo "SCript starting date: $DATE"
