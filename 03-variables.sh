@@ -1,3 +1,6 @@
+#if we need to run the command in linux and need to get output means we need
+#to use $(COMMAND NEED TO GIVE HERE)
+
 DATE=$(date)
 
 echo "Script started executing: ${DATE}"
