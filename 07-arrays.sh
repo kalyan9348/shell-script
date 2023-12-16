@@ -6,7 +6,6 @@ echo "third value: ${fruits[2]}"
 echo "fourth value: ${fruits[3]}"
 
 
-
 names=("kalyan" "saleem" "akhil" "sharma" "rohith")
 
 echo "Kalyan friend is: ${names[1]}"
