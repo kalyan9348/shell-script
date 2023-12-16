@@ -10,10 +10,10 @@ N="\e[0m"
 VALIDATE(){
   if [ $1 -ne 0 ]
   then
-    echo " error : $2 .... $R FAILED $N"
+    echo -e " error : $2 .... $R FAILED $N"
     exit 1
     else
-      echo "$2 .... $G SUCCESS $N"
+      echo -e "$2 .... $G SUCCESS $N"
       fi
 }
 
@@ -22,7 +22,7 @@ then
   echo -e "$R Error: Please run with root access"
   exit 1
   else
-    echo "$G you are the root user"
+    echo -e "$G you are the root user"
     fi
 
     yum install mysql -y &>> $LOGFILE
