@@ -20,3 +20,9 @@ a=10
 b=20
 sum=$(($a+$b))
 echo "Total= $sum"
+
+#syntax echo "How many args passed:: $#"
+
+#syntax echo "All args passed:: $@"
+
+#syntax echo "Script name:: $0"
