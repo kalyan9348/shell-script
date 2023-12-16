@@ -1,4 +1,4 @@
-fruits=("apple","guava","banana","grapes")
+fruits=("apple" "guava" "banana" "grapes")
 
 echo "first value: $fruits[0]"
 echo "second value: $fruits[1]"
