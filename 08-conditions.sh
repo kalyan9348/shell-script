@@ -1,4 +1,4 @@
-
+#Scenario: Print the number is greater than 100 using if condition
 number=$1
 
 if [ $number -ge 100 ]
