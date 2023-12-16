@@ -35,8 +35,8 @@ echo "fourth value: ${fruits[3]}"
 
 names=("kalyan" "saleem" "akhil" "sharma" "rohith")
 
-echo "Kalyan friend is: ${$names[1]}"
-echo "Saleem friend is: ${$names[4]}"
-echo "akhil friend is: ${$names[3]}"
-echo "sharma friend is: ${names[0]}"
-echo "rohith friend is: ${names[2]}"
+echo "Kalyan friend is: ${$names[0]}"
+echo "Saleem friend is: ${$names[1]}"
+echo "akhil friend is: ${$names[2]}"
+echo "sharma friend is: ${names[3]}"
+echo "rohith friend is: ${names[4]}"
