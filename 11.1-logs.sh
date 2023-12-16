@@ -17,8 +17,8 @@ VALIDATE(){
 if [ $ID -ne 0 ]
 then
   echo "Error: Please run with root access"
+  exit 1
   else
-    exit 1
     echo "you are the root user"
     fi
 
