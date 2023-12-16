@@ -1,11 +1,11 @@
 
-ID = $(id -u)
+ID= $(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
 LOGFILE= "/tmp/$0-$TIMESTAMP.log"
 
 VALIDATE(){
-  if [ $1 -ne 0]
+  if [ $1 -ne 0 ]
   then
     echo " error : $2 FAILED"
     exit 1
@@ -14,7 +14,7 @@ VALIDATE(){
       fi
 }
 
-if [ $ID -ne 0]
+if [ $ID -ne 0 ]
 then
   echo "Error: Please run with root access"
   else
