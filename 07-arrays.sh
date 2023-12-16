@@ -4,7 +4,7 @@ echo "first value: ${fruits[0]}"
 echo "second value: ${fruits[1]}"
 echo "third value: ${fruits[2]}"
 echo "fourth value: ${fruits[3]}"
-
+echo "All fruits: ${fruits[@]}
 
 names=("kalyan" "saleem" "akhil" "sharma" "rohith")
 
