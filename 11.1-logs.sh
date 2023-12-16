@@ -24,7 +24,7 @@ then
 
     yum install mysql -y &>> $LOGFILE
 
-    validate $? "Installation MySQL"
+    VALIDATE $? "Installation MySQL"
 
     yum install git -y &>> $LOGFILE
-    validate $? "installed git"
+    VALIDATE $? "installed git"
