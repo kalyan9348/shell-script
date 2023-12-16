@@ -15,6 +15,7 @@ echo "akhil friend is: ${names[3]}"
 echo "sharma friend is: ${names[4]}"
 echo "rohith friend is: ${names[0]}"
 
+
 names=("kalyan" "saleem" "akhil" "sharma" "rohith")
 
 echo "Kalyan friend is: ${names[0]}"
