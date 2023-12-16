@@ -19,3 +19,5 @@ read -s PASSWORD
 DATE=(date)
 echo "SCript starting executing: $DATE"
 
+DATE=$(date)
+echo "SCript starting date: $DATE"
