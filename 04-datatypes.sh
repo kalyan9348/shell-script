@@ -8,8 +8,8 @@
 #Syntax to run this sh 04-datatypes.sh 10 20
 
 
-a=10
-b=20
+a=$1
+b=$2
 
-sum=$((a+b))
+sum=$(($1+$2))
 echo "Total= $sum"
