@@ -15,3 +15,7 @@ echo "Please enter your Password:: "
 read -s PASSWORD
 
 #Syntax to run this : sh 03-variables.sh
+
+DATE=(date)
+echo "SCript starting executing: $DATE"
+
