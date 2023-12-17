@@ -12,10 +12,10 @@ echo "script stareted executing at $TIMESTAMP" &>> $LOGFILE
 validate(){
   if [ $1 -ne 0 ]
   then
-    echo -e " $2..is $R FAILED $N" &>> $LOGFILE
-    exit 1
+    echo -e " $2..is $R FAILED $N" &>>
+
     else
-      echo -e "$2 is $G SUCCESS $N " &>> $LOGFILE
+      echo -e "$2 is $G SUCCESS $N "
       fi
 }
 
