@@ -15,3 +15,4 @@ echo "After wrong command"
 cd /tmp
 
 cd /home/centos
+cd /tmo
