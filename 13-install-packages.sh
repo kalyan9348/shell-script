@@ -12,19 +12,19 @@ echo "script stareted executing at $TIMESTAMP" &>> $LOGFILE
 validate(){
   if [ $1 -ne 0 ]
   then
-    echo " $2..is FAILED" &>> $LOGFILE
+    echo -e " $2..is $R FAILED $N" &>> $LOGFILE
     exit 1
     else
-      echo "$2 is SUCCESS" &>> $LOGFILE
+      echo -e "$2 is $G SUCCESS $N " &>> $LOGFILE
       fi
 }
 
 if [ $ID -ne 0 ]
 then
-  echo " Please run with root user"
+  echo -e " $R Please run with root user"
   exit 1
   else
-    echo "you are the root user"
+    echo -e " $G you are the root user"
     fi
 
 for package in $@
@@ -35,7 +35,7 @@ do
     yum install $package -y &>> $LOGFILE
     validate $1 "Installation of $package"
     else
-      echo "$package is already installed ...SKIPPING"
+      echo "$package is already installed ... $Y SKIPPING $N"
       fi
   done
 
