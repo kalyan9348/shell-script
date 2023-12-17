@@ -8,15 +8,7 @@ then
     echo -e "$G you are the root user"
     fi
 
-    VALIDATE(){
-        if [ $1 -ne 0 ]
-        then
-            echo -e "ERROR:: $2 ... $R FAILED $N"
-            exit 1
-        else
-            echo -e "$2 ... $G SUCCESS $N"
-        fi
-    }
+
 
     yum install mysql -y &>> $LOGFILE
 
@@ -25,3 +17,13 @@ then
     yum install git -y &>> $LOGFILE
 
     VALIDATE $? "Installing GIT"
+
+      VALIDATE(){
+            if [ $1 -ne 0 ]
+            then
+                echo -e "ERROR:: $2 ... $R FAILED $N"
+                exit 1
+            else
+                echo -e "$2 ... $G SUCCESS $N"
+            fi
+        }
